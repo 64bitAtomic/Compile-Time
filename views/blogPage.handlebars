@@ -1,0 +1,45 @@
+{{!-- <div class="container mt-3">
+    <h2>{{title}}</h2>
+<p>{{content}}</p>
+</div> --}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+    }
+    .blog-card {
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
+    }
+    .blog-card:hover {
+      transform: scale(1.01);
+    }
+    .blog-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #00bcd4;
+    }
+    .blog-content {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <div class="container mt-5 p-4">
+    <div class="blog-card">
+      <h2 class="blog-title">{{title}}</h2>
+      <p class="blog-content">{{content}}</p>
+    </div>
+  </div> 
+</body>
+</html>
